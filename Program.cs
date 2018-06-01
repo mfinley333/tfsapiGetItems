@@ -21,7 +21,7 @@ namespace tfsapi
 
             // Create a request for the URL.   
             WebRequest request = WebRequest.Create(
-              "https://EUCTFS-server/{project}/_apis/tfvc/items?fileName=readme.txt&download=false&api-version=4.1");
+              "https://EUCTFS-server/{project}/_apis/tfvc/items?fileName=packages.config&download=false&api-version=4.1");
             // If required by the server, set the credentials.  
             request.Credentials = CredentialCache.DefaultNetworkCredentials;
             // Get the response.  
